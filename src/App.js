@@ -21,7 +21,7 @@ function App() {
                 <a className="nav-link active" href="#about">About</a>
                 <a className="nav-link active" href="#portfolio">Portfolio</a>
                 <a className="nav-link active" href="#learnernship">Learnership/Experience</a>
-                <a className="nav-link active" href="#profiles">Profiles</a>
+                <a className="nav-link active" href="#profiles">Skills</a>
               </div>
             </div>
           </div>
@@ -39,7 +39,7 @@ function App() {
           </h1>
           <br />
           <h4 className="text-center text-light">
-            I'm a Front end Developer and a Competitive Programmer
+            I'm a Front end Developer and a Web Developer Programmer
           </h4>
           <br />
           <br />
@@ -53,7 +53,7 @@ function App() {
             About Me
           </h2>
           <p className="text-dark fs-5 p-4 py-0" style={{marginTop: '-35px'}}>
-            I am front end web developer from South Africa, who also likes to do competitive programming and programming in Python. I'm impaired hearing, personality and just love to do work hard be positive in
+            I am front end web developer from South Africa, who also likes to do competitive programming and programming in React. I'm impaired hearing, personality and just love to do work hard be positive in
                         myself to focus for do what i love with my skilled hands and good capable of what i'm doing as i
                         can handle to help company through growth to smell a successful.
           </p>
@@ -71,10 +71,10 @@ function App() {
           <br />
           <br />
           <ul class="about-profiles-ul">
-          <li><a href="https://codechef.com/users/mrbluebird2" className="text-dark"><i className="fa fa-cc text-dark"></i></a></li>
+          <li><a href="https://web.whatsapp.com/" className="text-dark"><i className="fa fa-whatsapp text-dark"></i></a></li>
           <li><a href="https://www.linkedin.com/in/badri-vishal-mani-tripathi-721a8421a/" className="text-dark"><i className="fa fa-linkedin text-dark"></i></a></li>
           <li><a href="https://github.com/wandileo" className="text-dark"><i className="fa fa-github text-dark"></i></a></li>
-          <li><a href="wandilemlauleke@gmail.com" className="text-dark"><i className="fa fa-envelope text-dark"></i></a></li>
+          <li><a href="https://wandilemaluleke@gmail.com" className="text-dark"><i className="fa fa-envelope text-dark"></i></a></li>
           </ul>
           <br />
           <br />
@@ -175,7 +175,13 @@ function App() {
             Learnership
           </h2>
           <h5 className="py-2 p-5" style={{maxWidth: '100%', width: '700px', lineHeight: '34px'}}>
-            Here is a list of all the Learnership, I have done between the year 2021 - 2023
+            Here is a list of all the Learnerships in I have done between the year 2019 - 2023
+          </h5>
+          <h5 className="text-muted py-0 p-5 fw-bold" style={{maxWidth: '100%', width: '600px', lineHeight: '34px'}}>
+          <h4>Code College</h4> Learnership <br/> 08 June 2019 - 11 May 2020
+          </h5>
+          <h5 className="text-muted py-0 p-5 fw-bold" style={{maxWidth: '100%', width: '600px', lineHeight: '34px'}}>
+          <h4>Digital Academy</h4> Learnership <br/> 08 June 2021 - 11 May 2023
           </h5>
           <h3 className="py-2 p-5 fw-bold">
             Work Experience
@@ -199,41 +205,53 @@ function App() {
           <img src={profiles} className="profiles-img" alt="profiles-img" />
         </div>
         <h2 class="text-light py-4 p-5 fw-bold" style={{position: 'relative', top: '10px'}}>
-          Profiles
+          HTML
         </h2>
-        <h5 className="text-muted py-0 p-5" style={{marginTop: '-10px', maxWidth: '100%', width: '900px', lineHeight: '33px'}}>
-          Here are all my Open Source Profiles, i.e. GitHub, Linkedin, Competitive Programming Websites Profiles, like AtCoder, CodeChef, and many more.
-        </h5>
+        {/* <h5 className="text-muted py-0 p-5" style={{marginTop: '-10px', maxWidth: '100%', width: '900px', lineHeight: '33px'}}>
+        The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript. ... HTML elements are the building blocks of HTML pages.
+        </h5> */}
         <h3 class="text-light fw-bold py-3 p-5">
-          CodeChef - mrbluebird2
+        CSS
         </h3>
-        <h5 className="text-muted p-5 py-0" style={{marginTop: '-10px', maxWidth: '100%', width: '900px', lineHeight: '33px'}}>
-          CodeChef is a competitive programming website, CodeChef Holds 3 Programming Contest every moth, Long Challenge, Cook off, and Lunch Time
-        </h5>
+        {/* <h5 className="text-muted p-5 py-0" style={{marginTop: '-10px', maxWidth: '100%', width: '900px', lineHeight: '33px'}}>
+        Cascading Style Sheets (CSS) is a simple mechanism for adding style (e.g., fonts, colors, spacing) to Web documents.
+        </h5> */}
         <h3 class="text-light fw-bold py-3 p-5">
-          AtCoder - mrbluebird2
+          JS
         </h3>
-        <h5 className="text-muted p-5 py-0" style={{marginTop: '-10px', maxWidth: '100%', width: '900px', lineHeight: '33px'}}>
-          AtCoder is a programming contest website based in Japan. There are three types of official contests in AtCoder: AtCoder Grand Contest (AGC), AtCoder Beginner Contest (ABC), and one more.
-        </h5>
+        {/* <h5 className="text-muted p-5 py-0" style={{marginTop: '-10px', maxWidth: '100%', width: '900px', lineHeight: '33px'}}>
+        JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions
+        </h5> */}
         <h3 class="text-light fw-bold py-3 p-5">
-          GitHub - mrbluebird2
+          GIT and GITHUB
         </h3>
-        <h5 className="text-muted p-5 py-0" style={{marginTop: '-10px', maxWidth: '100%', width: '900px', lineHeight: '33px'}}>
-          GitHub, Inc. is a provider of Internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features
-        </h5>
+        {/* <h5 className="text-muted p-5 py-0" style={{marginTop: '-10px', maxWidth: '100%', width: '900px', lineHeight: '33px'}}>
+        Git is a document database and can be installed locally or hosted in the cloud. SQL vs Document Databases.
+        </h5> */}
         <h3 class="text-light fw-bold py-3 p-5">
-          Linkedin - Badri Vishal Mani Tripathi
+          REACT JS
         </h3>
-        <h5 className="text-muted p-5 py-0" style={{marginTop: '-10px', maxWidth: '100%', width: '900px', lineHeight: '33px'}}>
-          LinkedIn is an American business and employment-oriented online service that operates via websites and mobile apps. Launched on May 5, 2003, the platform is primarily used for professional networking and career development, and allows job seekers to post their CVs and employers to post jobs.
-        </h5>
+        {/* <h5 className="text-muted p-5 py-0" style={{marginTop: '-10px', maxWidth: '100%', width: '900px', lineHeight: '33px'}}>
+        React JS is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies.
+        </h5> */}
         <h3 class="text-light fw-bold py-3 p-5">
-          Codeforces - Mr_BlueBird
+          EXPRESS
         </h3>
-        <h5 className="text-muted p-5 py-0" style={{marginTop: '-10px', maxWidth: '100%', width: '900px', lineHeight: '33px'}}>
-        Codeforces is a website that hosts competitive programming contests. It is maintained by a group of competitive programmers from ITMO University led by Mikhail Mirzayanov.
-        </h5>
+        {/* <h5 className="text-muted p-5 py-0" style={{marginTop: '-10px', maxWidth: '100%', width: '900px', lineHeight: '33px'}}>
+        Express is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies.
+        </h5> */}
+        <h3 class="text-light fw-bold py-3 p-5">
+          NODE JS
+        </h3>
+        {/* <h5 className="text-muted p-5 py-0" style={{marginTop: '-10px', maxWidth: '100%', width: '900px', lineHeight: '33px'}}>
+        Node.js is an open-source, cross-platform JavaScript runtime environment and library for running web applications outside the client's browser.
+        </h5> */}
+        <h3 class="text-light fw-bold py-3 p-5">
+          MONGODB
+        </h3>
+        {/* <h5 className="text-muted p-5 py-0" style={{marginTop: '-10px', maxWidth: '100%', width: '900px', lineHeight: '33px'}}>
+        MongoDB is a document database and can be installed locally or hosted in the cloud. SQL vs Document Databases.
+        </h5> */}
         <br/>
       </section>
     </body>
